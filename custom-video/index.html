@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;family=Merriweather:wght@300;400;700;900&amp;display=swap"rel="stylesheet">
+    <link rel="icon" href="./assets/camera.ico">
+    <title>custom-video</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h2 class="section-title">
+                <span>Video</span>
+            </h2>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="player">
+                <div class="poster"></div>
+                <div class="play-btn"></div>
+                <video class="video" src="./assets/video/video.mp4"></video> 
+                <div class="wrapper-small-video">
+                    <div class="video-viewer">
+                        <video class="small-video" src="./assets/video/video.mp4"></video>
+                        <div class="video-viewer-time"></div>
+                    </div>
+                </div>          
+                <div class="controls">
+                    <div class="controls__play play-icon"></div>
+                    <div class="wrapper-progress">
+                        <input type="range" class="progress" min="0" max="100" value="0" step="1">
+                    </div>
+                    
+                    <div class="controls__time"></div>
+                    <div class="controls__volume volume-icon"></div>
+                    <div class="wrapper">
+                        <div class="volume-value"></div>
+                        <input type="range" class="volume" min="0" max="100" value="40" step="1">
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+<div class="footer-data">
+    <p class="copyright">©</p>
+    <p class="year">2022</p>
+    <a class="github" href="https://github.com/maiklshetinin" >github</a>
+</div>
+<a href="https://rs.school/index.html" class="rs"> Rolling Scopes School </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
