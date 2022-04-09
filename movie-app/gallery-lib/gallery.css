@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    min-height: 1px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.wrapper-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    min-height: 1px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.gallery-nav-left{
+    border: none;
+    outline: none;
+    width: 2rem;
+    height: 3rem;
+    top: 50%;
+    cursor: pointer;
+    background: url(../assets/svg/chevron-left.svg) no-repeat center;
+    background-size: contain;
+    left: 0;
+    /* pointer-events: none; */
+}
+.gallery-nav-right{
+    border: none;
+    outline: none;
+    width: 2rem;
+    height: 3rem;
+    top: 50%;
+    cursor: pointer;
+    background: url(../assets/svg/chevron-right.svg) no-repeat center;
+    background-size: contain;
+    left: 0;
+    /* pointer-events: none; */
+}
+
+.gallery {
+    /* width: 1230px; */
+    width: 80%;
+    /* overflow: hidden; */
+    user-select: none;
+    touch-action: none;
+    margin: 0 auto;
+  
+}
+
+.gallery-draggable {
+    cursor: grabbing;
+}
+
+.gallery-line {
+    display: flex;
+    /* gap: 10px; */
+    overflow: hidden;
+    touch-action: none;
+
+}
+
+.gallery-slide {
+    min-height: 1px;
+    float: left;
+    transform: translateZ(0);
+    touch-action: none;
+    opacity: 0.3;
+    transition: all 0.5s ease-in;
+    margin: 10px;
+}
+
+.gallery-nod-active {
+    opacity: 1;
+}
+
+.gallery-nav button {
+    margin: 0.5rem;
+    cursor: pointer;
+}
