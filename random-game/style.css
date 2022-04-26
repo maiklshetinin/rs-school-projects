@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+    background: #000;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+.info{
+    color: rgb(87, 87, 87);
+}
+
+.main{
+    
+    display: flex;
+    background: #000;
+    justify-content: center; 
+    align-items: center;
+   /* background-color: aquamarine; */
+   
+}
+.honor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 12%;
+    height: 500px;
+    /* background-color: #bdae82; */
+    
+}
+.localStorage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    color: rgb(158, 158, 158);
+}
+
+.btn_clear{
+    width: 50px;
+    height: 20px;
+    background: rgb(87, 87, 87);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.score{
+display: flex;
+flex-direction: column;
+align-items: center;
+    width: 12%;
+    height: 500px;
+    /* background-color: #bdae82; */
+    color: #fff;
+}
+.score_current{
+    font-size: 26px;
+}
+
+.win{
+    color: #bdae82;
+    font-size: 26px;
+    line-height: 52px;
+}
+
+/*-----------------------------------------------footer*/
+.footer {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.footer-data {
+    display: flex;
+}
+
+.copyright {
+    line-height: 50px;
+    padding-right: 20px;
+}
+
+.year {
+    line-height: 50px;
+}
+
+.github {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.github:hover {
+    color: #bdae82;
+}
+
+.rs {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0px;
+    line-height: 50px;
+    transition: 0.3s;
+   
+}
+
+.rs:hover {
+    color: #bdae82;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    }
