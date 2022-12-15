@@ -1,5 +1,6 @@
 # rs-school-projects
 Выполненные работы:
+- [x] Todo(React): https://github.com/maiklshetinin/todo
 - [x] Приложение по изучению английского(React): https://rslang-greg-front-end.netlify.app
 - [x] Мини игра: https://maiklshetinin.github.io/rs-school-projects/random-game
 - [x] Сайт по макету: https://maiklshetinin.github.io/rs-school-projects/portfolio
